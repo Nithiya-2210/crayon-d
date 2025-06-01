@@ -1,0 +1,112 @@
+html, body {
+          margin: 0;
+          padding: 0;
+          overflow-x: hidden; 
+        }
+        
+        .container {
+          max-width: 100%;
+          padding: 20px;
+          box-sizing: border-box;
+          background-color: #fdfbfb;
+        }
+        
+        .content {
+          background: white;
+          padding: 20px;
+        }
+
+        body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .accordion-container {
+      width: 400px;
+      margin: auto;
+    }
+
+    .box {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    .box-header {
+      background-color: #f0f0f0;
+      padding: 15px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    .arrow {
+      transition: transform 0.3s ease;
+    }
+
+    .arrow.open {
+      transform: rotate(90deg);
+    }
+
+    .box-content {
+      padding: 15px;
+      display: none;
+      background-color: #fafafa;
+    }
+
+    .box.open .box-content {
+      display: block;
+    }
+
+
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color:white;
+      padding: 20px;
+    }
+
+    .accordion-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+    }
+
+    .column {
+      flex: 1 1 400px;
+      max-width: 500px;
+    }
+
+    .box {
+      background: white;
+      border: 1px solid rgb(177, 177, 182);
+      border-radius: 8px;
+      margin-bottom: 15px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .box-header {
+      padding: 15px;
+      
+      background-color: white;
+      color: rgb(8, 8, 8);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .box-content {
+      display: none;
+      padding: 20px;
+      background:white;
+    }
+
+    .arrow {
+      font-size: 18px;
+    }
